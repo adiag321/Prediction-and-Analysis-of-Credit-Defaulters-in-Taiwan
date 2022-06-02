@@ -4,10 +4,9 @@
 The main scope for this project is to predict the occurence of credit card defaulter based on a customers previous history.
 The data provided in the csv file are in huge dimensions and the data used here is a PCA of multidimensions data reducing the dimensions so that we can handle with limited computational resources.
 
-This Python prject describes the implementation and data visualization of 6 supervised machine learning techniques implemented on the kaggle dataset of credit card defaulters. As the data is huge in terms of calculations i have used google colab and so first few steps are dedicated for setting up cloud environment.
+This Python prject describes the implementation and data visualization of 6 `supervised machine learning techniques` implemented on the kaggle dataset of credit card defaulters. As the data is huge in terms of calculations i have used google colab and so first few steps are dedicated for setting up cloud environment.
 
-The dataset is collected from UCI Machine Learning Repository - 
-https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
+The dataset is collected from `UCI Machine Learning Repository` - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
 ## DATA DESCRIPTION:
 
@@ -42,13 +41,12 @@ https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 1. Importing Libraries and other dependencies
 2. Performing Data Visualisation and Analysis
 3. Observing Correlation between features of the dataset
-4. Cleaning and Preprocessing the data
-5. Performing Feature Scaling of Numerical Attributes
-6. Applying Machine Learning Algorithm for Classification Problem 
-7. Applying Grid-Search CV and check if the accuracy is increased or not
-8. Evaluate the performance of the model
+4. `Cleaning` and `Preprocessing` the data
+5. Performing `Feature Scaling` of Numerical Attributes
+6. Applying Machine Learning Algorithm for `Classification` Problem 
+7. Applying `Grid-Search CV` and check if the accuracy is increased or not
+8. `Evaluate the performance` of the model
 
-<br>
 Machine Learning Techniques used:
 
 1) SVM
