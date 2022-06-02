@@ -1,15 +1,15 @@
 # <p align = 'center'> Prediction of Credit Card Defaulters In Taiwan</p>
 
-This Python prject describes the implementation and data visualization of 6 supervised machine learning techniques implemented on the kaggle dataset of credit card defaulters.
-
-As the data is huge in terms of calculations i have used google colab and so first few steps are dedicated for setting up cloud environment.
-
+## OVERVIEW:
 The main scope for this project is to predict the occurence of credit card defaulter based on a customers previous history.
 The data provided in the csv file are in huge dimensions and the data used here is a PCA of multidimensions data reducing the dimensions so that we can handle with limited computational resources.
 
+This Python prject describes the implementation and data visualization of 6 supervised machine learning techniques implemented on the kaggle dataset of credit card defaulters. As the data is huge in terms of calculations i have used google colab and so first few steps are dedicated for setting up cloud environment.
 
+The dataset is collected from UCI Machine Learning Repository - 
+https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
-## Data Descrption:
+## DATA DESCRIPTION:
 
 1. ID: ID of each client
 2. LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
@@ -37,16 +37,18 @@ The data provided in the csv file are in huge dimensions and the data used here 
 24. PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 25. default.payment.next.month: Default payment (1=yes, 0=no)
 
-
-## Methods:
+## METHODS:
 
 1. Importing Libraries and other dependencies
 2. Performing Data Visualisation and Analysis
 3. Observing Correlation between features of the dataset
 4. Cleaning and Preprocessing the data
 5. Performing Feature Scaling of Numerical Attributes
-6. Applying Machine Learning Algorithm for Classification Problem <br>
+6. Applying Machine Learning Algorithm for Classification Problem 
+7. Applying Grid-Search CV and check if the accuracy is increased or not
+8. Evaluate the performance of the model
 
+<br>
 Machine Learning Techniques used:
 
 1) SVM
@@ -56,10 +58,7 @@ Machine Learning Techniques used:
 5) K nearest neighbours
 6) Ensemble classifier using decision trees
 
-7. Applying Grid-Search CV and check if the accuracy is increased or not
-8. Evaluate the performance of the model
-
-## Conclusion
+## CONCLUSION:
 1. Using a Logistic Regression classifier, we can predict with 82.5% accuracy, whether a customer is likely to default next month.
 2. Using a Stochastic Gradient Descent classifier, we can predict with 83.33% accuracy, whether a customer is likely to default next month.
 3. Using a Support Vector Machine classifier, we can predict with 80.83% accuracy, whether a customer is likely to default next month.
