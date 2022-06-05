@@ -1,6 +1,7 @@
-# <p align = 'center'> Prediction of Credit Card Defaulters In Taiwan</p>
+# <p align = 'center'> Predicting Credit Card Defaulters In Taiwan</p>
 
-## OVERVIEW:
+## OVERVIEW
+
 The main scope for this project is to predict the occurence of credit card defaulter based on a customers previous history.
 The data provided in the csv file are in huge dimensions and the data used here is a PCA of multidimensions data reducing the dimensions so that we can handle with limited computational resources.
 
@@ -8,7 +9,7 @@ This Python prject describes the implementation and data visualization of 6 `sup
 
 The dataset is collected from `UCI Machine Learning Repository` - https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
-## DATA DESCRIPTION:
+## DATA DESCRIPTION
 
 1. ID: ID of each client
 2. LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
@@ -36,11 +37,11 @@ The dataset is collected from `UCI Machine Learning Repository` - https://archiv
 24. PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 25. default.payment.next.month: Default payment (1=yes, 0=no)
 
-## METHODS:
+## METHODOLOGY
 
 1. Importing Libraries and other dependencies
-2. Performing Data Visualisation and Analysis
-3. Observing Correlation between features of the dataset
+2. Performing `Data Visualisation` and `Analysis`
+3. Observing `Correlation` between features of the dataset
 4. `Cleaning` and `Preprocessing` the data
 5. Performing `Feature Scaling` of Numerical Attributes
 6. Applying Machine Learning Algorithm for `Classification` Problem 
@@ -56,15 +57,16 @@ Machine Learning Techniques used:
 5) K nearest neighbours
 6) Ensemble classifier using decision trees
 
-## CONCLUSION:
-1. Using a Logistic Regression classifier, we can predict with 82.5% accuracy, whether a customer is likely to default next month.
-2. Using a Stochastic Gradient Descent classifier, we can predict with 83.33% accuracy, whether a customer is likely to default next month.
-3. Using a Support Vector Machine classifier, we can predict with 80.83% accuracy, whether a customer is likely to default next month.
-4. Using a K-Nearest Neighbour classifier, we can predict with 80.83% accuracy, whether a customer is likely to default next month.
-5. Using a Decision Tree classifier, we can predict with 82.83% accuracy, whether a customer is likely to default next month.
-6. Using a Random Forest classifier, we can predict with 81% accuracy, whether a customer is likely to default next month.
-7. Using a XGBOOST classifier, we can predict with 82.16% accuracy, whether a customer is likely to default next month.
-8. The strongest predictors of default are the PAY_X (ie the repayment status in previous months), the LIMIT_BAL & the PAY_AMTX (amount paid in previous months).
-9. We found that using Stochastic Gradient Descent and Decision Tree are better.
+## CONCLUSION
+
+* Using a Logistic Regression classifier, we can predict with 82.5% accuracy, whether a customer is likely to default next month.
+* Using a Stochastic Gradient Descent classifier, we can predict with 83.33% accuracy, whether a customer is likely to default next month.
+* Using a Support Vector Machine classifier, we can predict with 80.83% accuracy, whether a customer is likely to default next month.
+* Using a K-Nearest Neighbour classifier, we can predict with 80.83% accuracy, whether a customer is likely to default next month.
+* Using a Decision Tree classifier, we can predict with 82.83% accuracy, whether a customer is likely to default next month.
+* Using a Random Forest classifier, we can predict with 81% accuracy, whether a customer is likely to default next month.
+* Using a XGBOOST classifier, we can predict with 82.16% accuracy, whether a customer is likely to default next month.
+* The strongest predictors of default are the PAY_X (ie the repayment status in previous months), the LIMIT_BAL & the PAY_AMTX (amount paid in previous months).
+* We found that using Stochastic Gradient Descent and Decision Tree are better.
 
 
