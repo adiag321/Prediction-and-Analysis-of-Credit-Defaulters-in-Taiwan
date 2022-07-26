@@ -1,4 +1,4 @@
-# <p align = 'center'> Predicting Credit Card Defaulters In Taiwan</p>
+# <p align = 'center'> Predicting and Analysis of Credit Card Defaulters In Taiwan</p>
 
 ## OVERVIEW
 
